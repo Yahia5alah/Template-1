@@ -162,6 +162,51 @@ z-index: 10;
 }
 /********* End header ********************************************************************************* */
 
+/********* Scroll button ********************************************************************************* */
+.scroll{
+    position: relative;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: none;
+}
+.scroll-button{
+background-color: var(--main-color);
+color: white;
+padding: 20px 15px;
+border: none;
+border-radius:10px;
+font-size: 18px;
+text-transform: uppercase;
+cursor: pointer;
+transition: .5s;
+}
+.scroll-button:hover{
+background-color: black;
+}
+
+.scroll i{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -22px;
+    font-size: 20px;
+    animation-name:scroll;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function:ease-in-out;
+    color: red;
+
+}
+@keyframes scroll {
+from{
+top: -40px;
+}
+to{
+top: -20px;
+}
+}
+
 /********* Start Landing ********************************************************************************* */
 
 .landin-section
