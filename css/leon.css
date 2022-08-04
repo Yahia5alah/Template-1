@@ -560,9 +560,19 @@ margin-top: 40px;
 }
 .contact .social i
 {
-font-size: 20px;
+font-size: 24px;
 margin-left: 10px;
 color: var(--main-color);
+cursor: pointer;
+}
+.contact .social i:first-child:hover{
+    color:#FF0000;
+}
+.contact .social i:nth-child(2):hover{
+    color:#1DA1F2;
+}
+.contact .social i:last-child:hover{
+    color:#0e76a8;
 }
 @media(max-width:767px)
 {
