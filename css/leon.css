@@ -174,7 +174,7 @@ z-index: 10;
 .scroll-button{
 background-color: var(--main-color);
 color: white;
-padding: 20px 15px;
+padding: 15px;
 border: none;
 border-radius:10px;
 font-size: 18px;
@@ -185,31 +185,10 @@ transition: .5s;
 .scroll-button:hover{
 background-color: black;
 }
-
-.scroll i{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: -22px;
-    font-size: 20px;
-    animation-name:scroll;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
-    animation-timing-function:ease-in-out;
-    color: red;
-   
-}
-@keyframes scroll {
-from{
-top: -40px;
-}
-to{
-top: -20px;
-}
-}
 @media(max-width:767px){
     .scroll-button{
-    display: none;
+    padding: 10px;
+    background-color: hsl(174deg 85% 43% / 70%);
     }
 }
 
