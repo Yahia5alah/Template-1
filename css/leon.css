@@ -169,6 +169,7 @@ z-index: 10;
     right: 20px;
     bottom: 20px;
     display: none;
+    z-index: 4;
 }
 .scroll-button{
 background-color: var(--main-color);
@@ -196,7 +197,7 @@ background-color: black;
     animation-iteration-count: 1;
     animation-timing-function:ease-in-out;
     color: red;
-
+   
 }
 @keyframes scroll {
 from{
